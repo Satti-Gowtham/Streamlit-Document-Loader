@@ -5,7 +5,7 @@ from langchain_community.document_loaders import DirectoryLoader
 from langchain_core.documents import Document
 import glob, os, pymupdf4llm, pathlib
 
-DB_PATH = os.getenv(DB_PATH)
+DB_PATH = './DB'
 
 def convert_to_md(path:str, outDir: str):
     pdf_files = glob.glob(f'{path}/*.pdf', recursive=True)

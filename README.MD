@@ -65,8 +65,6 @@ To run the application in a Docker container, follow these steps:
 Make sure to create a .env file with the following variables:
 
 ```
-DB_PATH=your_database_path
 OLLAMA_BASE_URL=your_ollama_base_url
 ```
-- DB_PATH: The path where the database will store the embeddings.
 - OLLAMA_BASE_URL: The base URL for the Ollama embeddings service.
